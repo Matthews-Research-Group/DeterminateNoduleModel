@@ -1,9 +1,10 @@
 This GitHub contains supporting information for the following publication:
 
 Kinetic modeling of the determinate nodule metabolism reveals enzymatic influences on improving nitrogen fixation efficiency
+
 by Rourou Ji, Joshua A.M. Kaste, and Megan L. Matthews
    
-author: rourouj2@illinois.edu
+Author: rourouj2@illinois.edu
 
 # Description  #
 
