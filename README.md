@@ -1,4 +1,4 @@
-This GitHub contains supporting information for the following publication:
+# This GitHub contains supporting information for the following publication:
 
 Kinetic modeling of the determinate nodule metabolism reveals enzymatic influences on improving nitrogen fixation efficiency
 
