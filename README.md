@@ -14,7 +14,7 @@ This archive contains all the scripts required to construct the model and perfor
 - **💻 kinetic model**: Source code and parameters for the original model.
 - **💾 data**: Contains all datasets required to replicate the results presented in the paper.
 - **📊 reproduce**: This directory contains scripts for generating figures and performing statistical analyses.
-  Parameter Space Exploration: To explore the parameter space of the model featured in Figure 1, run the command "sbatch run_explore_params.sh". The script will automatically create a directory named "ODE_results" to store all sampling and simulation data.
+  1. To explore the parameter space of the model featured in Figure 1, run the command "sbatch run_explore_params.sh". The script will automatically create a directory named "ODE_results" to store all sampling and simulation data.
 
 
 # Requirements #
