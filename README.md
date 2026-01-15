@@ -8,7 +8,7 @@ Author: rourouj2@illinois.edu
 
 # Description  #
 
-This archive contains all the scripts required to construct the model represented in Figure 1 of the paper, and perform the simulations described in the publication, and reproduce figures in the main context and supplemental information. 
+This archive contains all the scripts required to construct the model and perform the simulations described in the publication, and reproduce figures in the main context and supplemental information. 
 
 
 # Requirements #
