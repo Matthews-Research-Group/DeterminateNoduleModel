@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This file contains supporting information of the following publication:
 %
-% Mechanistic modeling of the determinate nodule metabolism reveals enzymatic 
+% Kinetic modeling of the determinate nodule metabolism reveals enzymatic 
 % influences on improving nitrogen fixation efficiency
 %
 % by Rourou Ji, Joshua A.M. Kaste and Megan L. Matthews
