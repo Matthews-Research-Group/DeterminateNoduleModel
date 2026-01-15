@@ -11,9 +11,11 @@ Author: rourouj2@illinois.edu
 # Description  #
 This archive contains all the scripts required to construct the model and perform the simulations described in the publication, and reproduce figures in the main context and supplemental information. 
 
-- **kinetic model**: This folder contains the original kinetic model
-- **data**: This folder contains all the data that can be used to reproduce the results.
-- **reproduce**: This folder contains scripts to generate figures and run statistical analysis.
+- **💻 kinetic model**: Source code and parameters for the original model.
+- **💾 data**: Contains all datasets required to replicate the results presented in the paper.
+- **📊 reproduce**: This directory contains scripts for generating figures and performing statistical analyses.
+  Parameter Space Exploration: To explore the parameter space of the model featured in Figure 1, run the command "sbatch run_explore_params.sh". The script will automatically create a directory named "ODE_results" to store all sampling and simulation data.
+
 
 # Requirements #
 MATLAB_R2023a, MATLAB toolbox, and Biocluster high-performance computing system (v3, Champaign, IL, USA) are required. If you are using a different version or operating system, some functions or toolbox features might be incompatible. Please adjust the source code accordingly to match your specific environment.
