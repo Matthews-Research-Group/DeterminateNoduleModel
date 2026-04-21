@@ -1,9 +1,10 @@
 # Determinate nodule kinetic model
 
 Welcome! 👋  
+
 This GitHub contains supporting information for the following publication:
 
-Kinetic modeling of the determinate nodule metabolism reveals enzymatic influences on improving nitrogen fixation efficiency
+## Kinetic modeling of the determinate nodule metabolism reveals enzymatic influences on improving nitrogen fixation efficiency
 
 by **Rourou Ji, Joshua A.M. Kaste, and Megan L. Matthews**
    
@@ -19,13 +20,13 @@ This archive contains all the scripts required to construct the model and perfor
 **💾 data**: Contains all datasets required to replicate the results presented in the paper.
   
 **📊 reproduce**: This directory contains scripts for generating figures and performing statistical analyses.
-- **Parameter space exploration**: To explore the parameter space of the model featured in Figure S1, run the command "sbatch run_explore_params.sh" in each sampling repository. The script will automatically create a directory named "ODE_results" to store all sampling and simulation data.
+- **Parameter space exploration**: To explore the parameter space of the model featured in **Figure S1**, run the command `sbatch run_explore_params.sh` in each sampling repository. The script will automatically create a directory named **ODE_results** to store all sampling and simulation data.
 - **Main_figures.m**: Generates all figures presented in the main text of the paper.
 - **SI_figures.m**: Generates all figures included in the Supplementary Information.
 
 ---
 
-## Requirements
+## System requirements
 MATLAB_R2023a, MATLAB toolbox, and HPC (Biocluster is used here) are required. If you are using a different version or operating system, some functions or toolbox features might be incompatible. Please adjust the source code accordingly to match your specific environment.
 
 
