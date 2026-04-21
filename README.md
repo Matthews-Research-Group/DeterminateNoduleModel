@@ -12,7 +12,7 @@ Author: rourouj2@illinois.edu
 
 ---
 
-## Description 
+## 📂 Description 
 This archive contains all the scripts required to construct the model and perform the simulations described in the publication, and reproduce figures in the main context and supplemental information. 
 
 **💻 kinetic model**: Source code and parameters for the original model.
@@ -26,7 +26,7 @@ This archive contains all the scripts required to construct the model and perfor
 
 ---
 
-## System requirements
+## 🛠️ System requirements
 MATLAB_R2023a, MATLAB toolbox, and HPC (Biocluster is used here) are required. If you are using a different version or operating system, some functions or toolbox features might be incompatible. Please adjust the source code accordingly to match your specific environment.
 
 
