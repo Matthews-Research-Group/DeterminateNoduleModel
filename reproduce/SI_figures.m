@@ -23,7 +23,7 @@ param_names = fieldnames(Vmax);
 %% load data
 load('../data/alldata.mat');
 
-%% Figure S3
+%% Figure S4
 all = Vmax_matrix';
 filtered = (newdata.Vmax)';
 
@@ -57,7 +57,7 @@ for i = 1:num_variables
     hold(ax,'off');
 end
 
-%% Figure S4
+%% Figure S5
 without_set = load('../data/wo_proteomicdata_result.mat');
 
 with_beforefilter = load('../data/alldata.mat');
@@ -217,7 +217,7 @@ for i = 1:length(axes_handles)
 end
 
 
-%% Figure S5
+%% Figure S6
 x1 = categorical(metabolite_names, metabolite_names, 'Ordinal', true);
 y1 = newdata.x;
 
@@ -286,7 +286,7 @@ for i = 1:length(index_ranges)
 end
 
 
-%% Figure S6
+%% Figure S7
 x1 = categorical(reaction_names, reaction_names, 'Ordinal', true);
 y1 = newdata.v;
 
@@ -353,7 +353,7 @@ for i = 1:length(index_ranges)
 
 end
 
-%% Figure S7
+%% Figure S8
 load('../data/fitness_comparison.mat');
 
 log_exp = log10(fitness_comparison.E_prop_toPDH_original);
@@ -386,7 +386,7 @@ ylim([-2,1.5]);
 axis equal; grid on;
 
 
-%% Figure S14
+%% Figure S15
 alpha=0.5;
 load('../data/Enames.mat');
 
@@ -513,7 +513,7 @@ box on;
 grid off;
 hold off;
 
-%% Figure S15
+%% Figure S16
 val_range=linspace(0, 5, 30); 
 
 load('../data/changeFBAratio_result.mat');
@@ -578,7 +578,7 @@ set(gcf, 'PaperPosition', [0 0 width height]);
 set(gcf, 'PaperPositionMode', 'manual');           
 
 
-%% Figure S16
+%% Figure S17
 load('../data/result_Vmaxdown.mat');
 load('../data/result_Vmaxup.mat');
 
@@ -686,7 +686,7 @@ legend_handle = legend({'increase 3-fold', 'decrease 3-fold'});
 set(legend_handle, 'Location', 'northeast','fontsize',15); 
 
 
-%% Figure S17
+%% Figure S18
 threshold = 0.001;  % Define cutoff for sensitivity
 
 Nfix_change_idx = (abs(Nfix_change_up) >= threshold | abs(Nfix_change_down) >= threshold);  
@@ -751,7 +751,7 @@ legend_handle = legend({'increase 3-fold', 'decrease 3-fold'});
 set(legend_handle, 'Location', 'northwest','fontsize',15);  
 
 
-%% Figure S18
+%% Figure S19
 [efficient_nod, inefficient_nod] = efficient_identify2(newdata);
 energy_ef = datastruct(efficient_nod);
 energy_inef = datastruct(inefficient_nod);
