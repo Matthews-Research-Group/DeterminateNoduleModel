@@ -4,7 +4,7 @@ Welcome! 👋
 
 This GitHub contains supporting information for the following publication:
 
-### Kinetic modeling of the determinate nodule metabolism reveals enzymatic influences on improving nitrogen fixation efficiency
+### Kinetic model of a determinate nodule reveals plant metabolic characteristics for more efficient nitrogen fixation symbiosis
 
 by **Rourou Ji, Joshua A.M. Kaste, and Megan L. Matthews**
    
