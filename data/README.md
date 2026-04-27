@@ -20,19 +20,19 @@ This folder contains all datasets required to reproduce the results presented in
    Aggregated results from simulations that successfully reached steady state.
 
 6. **changeFBAratio_result**  
-   Data used to reproduce Figure S15.
+   Data used to reproduce Figure S16.
 
 7. **eff_ineff_nodule**  
    Flux distributions for efficient and inefficient nodules, used for generating flux maps.
 
 8. **fitness_comparison**  
-    Data used to reproduce Figure S7.
+    Data used to reproduce Figure S8.
 
 9. **result_Vmaxdown** and **result_Vmaxup**  
-    Data used to reproduce Figure S16.
+    Data used to reproduce Figure S17 and Figure S18.
 
 10. **wo_proteomicdata_result**  
-    Data used to reproduce Figure S4.
+    Data used to reproduce Figure S5.
 
 ---
 
