@@ -24,7 +24,7 @@ param_names = fieldnames(Vmax);
 load('../data/alldata.mat');
 
 %% Figure S4
-all = Vmax_matrix';
+all = Vmax_matrix_initial';
 filtered = (newdata.Vmax)';
 
 num_variables = size(param_names,1);
